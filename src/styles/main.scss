@@ -1,6 +1,7 @@
 
 @use 'variaveis';
 @use 'hero';
+@use 'shows';
 @font-face{
     font-family: Avenir;
     src: url(../../assets/Avenir-Regular.woff2);
@@ -8,7 +9,8 @@ font-weight: 400;
 }
 
 @font-face{
-    font-family: url(../../assets/Avenir-Bold.woff2);
+    font-family:Avenir;
+    src: url(../../assets/Avenir-Bold.woff2);
     font-weight: 700    ;
 }
 
